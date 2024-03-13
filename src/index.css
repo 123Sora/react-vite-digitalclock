@@ -1,0 +1,41 @@
+body{
+  background-image: url(assets/studywithMe.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  height: 100vh;
+
+}
+.container{
+  backdrop-filter: blur(3px);
+  width: 100vw;
+  padding: 20px 0;
+}
+.clock{
+  color: #fff;
+  font-size: 6rem;
+  font-family: monospace;
+  text-shadow: 4px 4px 5px rgb(21, 19, 19);
+  text-align: center;
+ 
+}
+.music-player{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+.music-player  audio {
+  border-radius:  20px;
+  background-color:rgb(255, 20, 255);
+  
+  
+  
+}
